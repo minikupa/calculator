@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <TextView
+                android:id="@+id/calculation"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:gravity="center|right"
+                android:paddingRight="25dp"
+                android:textSize="33dp"
+                android:textColor="#000000"
+                tools:text="1+1="
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"/>
+
+    <TableLayout android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="6"
+                 android:gravity="center"
+                 android:weightSum="5"
+                 android:background="#E2E2E2">
+
+        <TableRow
+                android:layout_weight="1"
+                android:gravity="center"
+                android:weightSum="4">
+
+            <Button
+                    android:id="@+id/clear"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="AC"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/plus_minus"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="+/-"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/percent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="% (나머지)"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/division"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="÷"
+                    android:background="#ffffff"/>
+
+        </TableRow>
+
+        <TableRow
+                android:gravity="center"
+                android:layout_weight="1"
+                android:weightSum="4">
+
+            <Button
+                    android:id="@+id/seven"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="7"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/eight"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="8"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/nine"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="9"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/multiplication"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="×"
+                    android:background="#ffffff"/>
+
+        </TableRow>
+
+        <TableRow
+                android:gravity="center"
+                android:layout_weight="1"
+                android:weightSum="4">
+
+            <Button
+                    android:id="@+id/four"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="4"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/five"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="5"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/six"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="6"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/minus"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="-"
+                    android:background="#ffffff"/>
+
+        </TableRow>
+
+        <TableRow
+                android:gravity="center"
+                android:layout_weight="1"
+                android:weightSum="4">
+
+            <Button
+                    android:id="@+id/one"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="1"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/two"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="2"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/three"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="3"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/plus"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="+"
+                    android:background="#ffffff"/>
+
+        </TableRow>
+
+        <TableRow
+                android:gravity="center"
+                android:layout_weight="1"
+                android:weightSum="4">
+
+            <Button
+                    android:id="@+id/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="0"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/zerozero"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="00"
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/point"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="."
+                    android:background="#ffffff"/>
+
+            <Button
+                    android:id="@+id/equal"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:text="="
+                    android:background="#ffffff"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
